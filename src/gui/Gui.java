@@ -7,6 +7,9 @@ public class Gui {
     public static Draw draw;
 
     public static int width = 1028, height = 720;
+    public static int offsetX = 200;
+    public static int offsetY = 25;
+
 
     public static void create(){
         jf = new JFrame("Mapgenerator");
