@@ -4,6 +4,7 @@ import javax.swing.*;
 
 public class Gui {
     public static JFrame jf;
+    public static Draw draw;
 
     public static int width = 1028, height = 720;
 
@@ -57,6 +58,11 @@ public class Gui {
         bar.add(mode);
         jf.setJMenuBar(bar);
 
+        //Draw
+        draw = new Draw();
+        draw.setBounds(0,0,width,height);
+        draw.setVisible(true);
+        jf.add(draw);
 
         jf.setVisible(true);
     }
