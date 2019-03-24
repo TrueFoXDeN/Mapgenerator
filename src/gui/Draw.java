@@ -12,10 +12,8 @@ public class Draw extends JLabel {
 
         g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 
-
-        g.drawRect(Gui.offsetX,Gui.offsetY,600,600);
         g.setColor(Color.BLACK);
-
+        g.drawRect(Gui.offsetX, Gui.offsetY,600,600);
 
         repaint();
     }
